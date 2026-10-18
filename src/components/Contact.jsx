@@ -14,9 +14,9 @@ export default function Contact() {
           <a className="btn" href={profile.linkedin} target="_blank" rel="noreferrer"><Linkedin size={16} aria-hidden="true" /> LinkedIn</a>
           <a className="btn" href={profile.github} target="_blank" rel="noreferrer"><Github size={16} aria-hidden="true" /> GitHub</a>
           <a className="btn" href={profile.resume} download><Download size={16} aria-hidden="true" /> Resume</a>
-        </div>
+        {/* </div>
         <p className="small">Optional secrets found: {found.length}/{TOTAL}</p>
-      </div>
+      </div> */}
     </section>
   )
 }
